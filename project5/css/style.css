@@ -1,0 +1,104 @@
+/* General styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+box-sizing: border-box;
+
+
+}
+
+body {
+    margin: 0; /* Remove any default margin */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-image: url(photo/istockphoto-1758422364-1024x1024.jpg); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling or doubling */
+    overflow: hidden; /* Prevent scrolling if the image overlaps */
+}
+
+
+
+
+/* Form container styling */
+ .formTeam {
+    padding: 20px,50px;
+    max-width: 400px;
+    margin:auto ;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* background-color: hsl(123, 27%, 87%); */
+ }
+
+/* Labels */
+.tizaz {
+    display: block;
+    margin-bottom: 5px;
+    color: #f8eeee;
+}
+
+/* Input fields */
+.name {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.go, .generate, .reset {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.go:hover {
+    background-color: #0056b3;
+}
+
+.reset {
+    background-color: #6c757d;
+}
+
+.reset:hover {
+    background-color: #5a6268;
+}
+
+/* Password strength bar */
+.strength-bar {
+    height: 5px;
+    background-color: #ccc;
+    margin-top: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.strength-bar div {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s;
+}
+
+/* Error messages */
+.error-message {
+    color: red;
+    font-size: 0.85em;
+}
